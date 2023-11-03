@@ -1,0 +1,13 @@
+﻿  PluginProcessor.cpp
+  PluginEditor.cpp
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(27,16): error C2665: 'juce::dsp::Convolution::loadImpulseResponse': no overloaded function could convert all the argument types
+D:\github\JUCE\modules\juce_dsp\frequency\juce_Convolution.h(233,10): message : could be 'void juce::dsp::Convolution::loadImpulseResponse(const juce::File &,juce::dsp::Convolution::Stereo,juce::dsp::Convolution::Trim,size_t,juce::dsp::Convolution::Normalise)' (compiling source file ..\..\Source\PluginProcessor.cpp)
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(27,16): message : 'void juce::dsp::Convolution::loadImpulseResponse(const juce::File &,juce::dsp::Convolution::Stereo,juce::dsp::Convolution::Trim,size_t,juce::dsp::Convolution::Normalise)': cannot convert argument 2 from 'int' to 'juce::dsp::Convolution::Stereo'
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(27,45): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(27,16): message : while trying to match the argument list '(juce::File, int, juce::dsp::Convolution::Stereo, juce::dsp::Convolution::Trim)'
+D:\github\harrymonsterIR\Source\PluginEditor.cpp(15,1): error C2530: 'HarrymonsterIRAudioProcessorEditor::processor': references must be initialized
+D:\github\harrymonsterIR\Source\PluginEditor.cpp(14,34): error C2614: 'HarrymonsterIRAudioProcessorEditor': illegal member initialization: 'audioProcessor' is not a base or member
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(164,69): error C2440: '<function-style-cast>': cannot convert from 'juce::AudioBuffer<float>' to 'juce::dsp::ProcessContextReplacing<float>'
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(164,69): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\github\harrymonsterIR\Source\PluginProcessor.cpp(164,19): error C2672: 'juce::dsp::ProcessorChain<juce::dsp::Convolution>::process': no matching overloaded function found
+D:\github\JUCE\modules\juce_dsp\processors\juce_ProcessorChain.h(95,10): message : could be 'void juce::dsp::ProcessorChain<juce::dsp::Convolution>::process(const ProcessContext &) noexcept' (compiling source file ..\..\Source\PluginProcessor.cpp)

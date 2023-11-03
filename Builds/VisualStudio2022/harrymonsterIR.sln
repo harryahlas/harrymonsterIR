@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harrymonsterIR - Standalone Plugin", "harrymonsterIR_StandalonePlugin.vcxproj", "{1A4737EC-FABA-AA5B-79DE-E3F76CF4C7D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB} = {D6B30363-3F65-5398-4EB0-D3FD6BE678CB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harrymonsterIR - VST3", "harrymonsterIR_VST3.vcxproj", "{06877082-5D27-2B30-E4F2-E75B22A385A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB} = {D6B30363-3F65-5398-4EB0-D3FD6BE678CB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "harrymonsterIR - Shared Code", "harrymonsterIR_SharedCode.vcxproj", "{D6B30363-3F65-5398-4EB0-D3FD6BE678CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06877082-5D27-2B30-E4F2-E75B22A385A1}.Debug|x64.ActiveCfg = Debug|x64
+		{06877082-5D27-2B30-E4F2-E75B22A385A1}.Debug|x64.Build.0 = Debug|x64
+		{06877082-5D27-2B30-E4F2-E75B22A385A1}.Release|x64.ActiveCfg = Release|x64
+		{06877082-5D27-2B30-E4F2-E75B22A385A1}.Release|x64.Build.0 = Release|x64
+		{1A4737EC-FABA-AA5B-79DE-E3F76CF4C7D0}.Debug|x64.ActiveCfg = Debug|x64
+		{1A4737EC-FABA-AA5B-79DE-E3F76CF4C7D0}.Debug|x64.Build.0 = Debug|x64
+		{1A4737EC-FABA-AA5B-79DE-E3F76CF4C7D0}.Release|x64.ActiveCfg = Release|x64
+		{1A4737EC-FABA-AA5B-79DE-E3F76CF4C7D0}.Release|x64.Build.0 = Release|x64
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB}.Debug|x64.ActiveCfg = Debug|x64
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB}.Debug|x64.Build.0 = Debug|x64
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB}.Release|x64.ActiveCfg = Release|x64
+		{D6B30363-3F65-5398-4EB0-D3FD6BE678CB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
